@@ -4,7 +4,7 @@
 object BankAccount {
   private val accountNum: Int = 0
 }
-class BankAccount(var accountNumber: Int, val _initialBalance: Double) {
+class BankAccount(var accountNumber: Int, var _initialBalance: Double) {
   def this(accountNumber: Int) = this(accountNumber, 0.0)
 
   accountNumber = BankAccount.accountNum
