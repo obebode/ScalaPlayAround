@@ -48,10 +48,6 @@ pq._age
 
 
 
-/*val person = new Person("James", 10, "james@yahoo.com")
-println(person)
-person.age
-person.email
-person.name
-person.toString */
+
+
 

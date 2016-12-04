@@ -11,14 +11,26 @@ name + c
 c + n
 name + b
 
-val thisIsADouble : Double = 10
-val thisIsAFloat : Float = 10
+val thisIsADouble: Double = 10
+val thisIsAFloat: Float = 10
 
-val result = { val a = 20; val b = 5; a / b}
+val result = {
+  val a = 20
+  val b = 5
+  a / b
+}
 
-val y = { val m = 1.0; val x = 10; val c = 15; m*x + c}
+val y = {
+  val m = 1.0
+  val x = 10
+  val c = 15
+  m * x + c
+}
 
-val total = {val input = 10.00; input + (input* 0.2)}
+val total = {
+  val input = 10.00
+  input + (input * 0.2)
+}
 
 
 def fact(n: Int): Int = {
